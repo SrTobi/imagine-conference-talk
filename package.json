@@ -1,0 +1,17 @@
+{
+  "name": "imagine-conference",
+  "version": "0.0.1",
+  "description": "imagine-conference talk",
+  "license": "MIT",
+  "repository": "",
+  "author": "Tobias Kahlert",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node out/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.18",
+    "typescript": "^2.3.0"
+  }
+}

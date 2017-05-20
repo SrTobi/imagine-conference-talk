@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+
+    "declaration": true,
+    "module": "es2015",
+    "target": "es6",
+    "lib": [
+      "es7"
+    ],
+    "moduleResolution": "node",
+    "outDir": "./out",
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*-spec.ts"
+  ]
+}
